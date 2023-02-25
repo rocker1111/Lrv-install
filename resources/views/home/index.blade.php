@@ -11,9 +11,7 @@
     <h3 style="background: red;color:aliceblue;font-size:30px;">
         My name is : {{$name}}</h3>
     <h3 style="background: red;color:aliceblue;font-size:30px;">
-        My name is : {{$roll}}</h3>
-        <h3 style="background: red;color:aliceblue;font-size:30px;">
-            My name is : {{$subject[0]}}</h3>
-            <h2>this is githube</h2>
+        My name is : </h3>
+        
 </body>
 </html>

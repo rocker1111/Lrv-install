@@ -7,14 +7,9 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     function index(){
-        $my_name = "Moni Sarkar";
-        //return view('home.index',['name' => $name]); 
-        $this->data = [
-            'name' => $my_name,
-            'roll' => 1234,
-            'subject' => ['bangla','english','math']
-        ];
-        return view('home.index', $this->data); 
+        $name = "Moni sarkar hridoy";
+        $data = ['name' => $name];
+        return view('home.index', $data); 
     }
 
     function contact(){
